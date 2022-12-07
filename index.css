@@ -1,0 +1,78 @@
+/* @media (min-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    color: rgb(10, 10, 190);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+} */
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  margin-left: 25px;
+}
+
+.contents {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: x-large;
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+  margin-right: 30px;
+  /* margin-top: 8px; */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 20%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #000000;
+}
+
+.home {
+  background-color: rgb(78, 78, 245);
+  padding: 5px 7px;
+  border-radius: 10px;
+}
+
+.about {
+  background-color: rgb(118, 196, 118);
+  padding: 5px 7px;
+  border-radius: 10px;
+}
+
+.content {
+  background-color: rgb(234, 234, 107);
+  padding: 5px 7px;
+  border-radius: 10px;
+}
+
+.contact {
+  background-color: rgb(205, 65, 205);
+  padding: 5px 7px;
+  border-radius: 10px;
+}
